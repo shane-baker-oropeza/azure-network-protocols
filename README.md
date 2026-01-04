@@ -21,10 +21,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create virtual machines
+- Configure firewall (Network Security Group)
+- Observe SSH traffic
+- Observe DHCP traffic
+- Observe DNS traffic
 
 <h2>Actions and Observations</h2>
 
