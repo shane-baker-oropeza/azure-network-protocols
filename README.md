@@ -201,6 +201,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Part 2: Observing ICMP Traffic</h2>
 
 <h3>Step 5: Connect via Remote Desktop (RDP)</h3>
+
 - Open Microsoft Remote Desktop. 
 - Use the Public IP of your windows-vm to log in to the desktop environment.
 <br />
@@ -236,6 +237,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <h3>Step 6: Install and Configure Wireshark</h3>
+
 - Inside the Windows VM, download and install Wireshark. 
 - Open it, select the Ethernet adapter, and start a packet capture.
 <br />
@@ -259,6 +261,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <h3>Step 7: Filter and Observe ICMP (Ping)</h3>
+
 - In the Wireshark filter bar, type icmp. 
 - Open PowerShell and ping your Ubuntu VM's Private IP (e.g., ping 10.0.0.5).
 <br />
@@ -293,4 +296,179 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Initiate a "perpetual ping" from PowerShell: ping 10.0.0.5 -t.
 - In the Azure Portal, go to the Ubuntu VM's Networking settings and add an Inbound Port Rule to Deny ICMP.
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<h3>Step 9: Observe Firewall Impact</h3>
+
+- Return to the Windows VM.
+- Observe Wireshark showing "Request Timed Out" as the firewall blocks the traffic.
+- Re-enable the traffic in Azure to see the pings resume.
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<h3>Step 10: Observe SSH Traffic</h3>
+
+- In Wireshark, change the filter to ssh.
+- In PowerShell, connect to the Linux VM: ssh labuser@<Private-IP>.
+- Type commands into the Linux terminal.
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<h3>Step 11: Observe DHCP Traffic</h3>
+
+-In Wireshark, filter for dhcp (or bootp). 
+- In an Administrative PowerShell window, run ipconfig /renew.
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<h3>Step 12: Observe DNS Traffic</h3>
+
+- In Wireshark, filter for dns. 
+- In PowerShell, run nslookup www.google.com.
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<h3>Step 13: Observe RDP Traffic</h3>
+
+- In Wireshark, filter for tcp.port == 3389.
+- Notice the constant stream of traffic.
+
+**Analysis: Because RDP is a live-stream of the desktop interface, it must constantly send data to update your screen, resulting in "non-stop" traffic.**
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
 
