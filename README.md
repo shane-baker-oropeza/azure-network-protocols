@@ -389,7 +389,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h3>Step 11: Observe DHCP Traffic</h3>
 
--In Wireshark, filter for dhcp (or bootp). 
+- In Wireshark, filter for dhcp (or bootp). 
 - In an Administrative PowerShell window, run ipconfig /renew.
 <br />
 
@@ -449,7 +449,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - In Wireshark, filter for tcp.port == 3389.
 - Notice the constant stream of traffic.
 
-**Analysis: Because RDP is a live-stream of the desktop interface, it must constantly send data to update your screen, resulting in "non-stop" traffic.**
+<h3>Analysis:</h3>
+
+**Because RDP is a live-stream of the desktop interface, it must constantly send data to update your screen, resulting in "non-stop" traffic.**
 <br />
 
 <p>
