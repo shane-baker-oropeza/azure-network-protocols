@@ -371,6 +371,13 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <br />
 
+<h3>Step 9: Observe Firewall Impact</h3>
+
+- Return to the Windows VM.
+- Observe Wireshark showing "Request Timed Out" as the firewall blocks the traffic.
+- Re-enable the traffic in Azure to see the pings resume.
+<br />
+
 <p>
 <img width="566" height="458" alt="Screenshot 2026-01-23 082156" src="https://github.com/user-attachments/assets/2eb907a5-aac0-4d7e-9da5-4391eef6537e" />
 
@@ -413,38 +420,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <br />
 
-<h3>Step 9: Observe Firewall Impact</h3>
-
-- Return to the Windows VM.
-- Observe Wireshark showing "Request Timed Out" as the firewall blocks the traffic.
-- Re-enable the traffic in Azure to see the pings resume.
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
 <h3>Step 10: Observe SSH Traffic</h3>
 
 - In Wireshark, change the filter to ssh.
@@ -453,27 +428,26 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1146" height="411" alt="Screenshot 2026-01-23 082835" src="https://github.com/user-attachments/assets/5e409a3a-0785-4323-b0bc-748e56dbeeb6" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="787" height="676" alt="Screenshot 2026-01-23 083442" src="https://github.com/user-attachments/assets/5fdb55d1-73bd-4ada-930d-15f167a42315" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="722" height="238" alt="Screenshot 2026-01-23 083520" src="https://github.com/user-attachments/assets/e78c34dd-e18f-4403-9a95-411e82d73529" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
+<img width="1149" height="720" alt="Screenshot 2026-01-23 083559" src="https://github.com/user-attachments/assets/f4179567-0f09-4607-880d-2bb0153d7361" />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
@@ -484,27 +458,20 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1151" height="426" alt="Screenshot 2026-01-23 083936" src="https://github.com/user-attachments/assets/bc8ea06c-68c3-493f-8120-48b11fb65cf9" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="435" height="154" alt="Screenshot 2026-01-23 084042" src="https://github.com/user-attachments/assets/59f8becd-823d-44f7-be00-ef09ab31016c" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
+<img width="1149" height="726" alt="Screenshot 2026-01-23 084051" src="https://github.com/user-attachments/assets/44a3ea31-4838-45e1-bb19-2a4517addc8b" />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
@@ -515,22 +482,26 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1150" height="411" alt="Screenshot 2026-01-23 084143" src="https://github.com/user-attachments/assets/d57429a8-8ff6-474d-a218-401967beb53a" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="444" height="166" alt="Screenshot 2026-01-23 084221" src="https://github.com/user-attachments/assets/aaecb382-d23f-4453-a883-2c4a3c02385b" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="428" height="351" alt="Screenshot 2026-01-23 084230" src="https://github.com/user-attachments/assets/30216ea7-2e07-4c9b-847c-19b2682f0b88" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1148" height="731" alt="Screenshot 2026-01-23 084238" src="https://github.com/user-attachments/assets/ba8cc07e-8c3e-457c-9efc-79c51fbbc0b4" />
+
 </p>
 <br />
 
@@ -538,29 +509,17 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - In Wireshark, filter for tcp.port == 3389.
 - Notice the constant stream of traffic.
+<br />
+
+<p>
+<img width="1150" height="730" alt="Screenshot 2026-01-23 084439" src="https://github.com/user-attachments/assets/d4dc6d6d-578e-4eb2-8218-06de692e2b5a" />
+
+</p>
+<br />
+
 
 <h3>Analysis:</h3>
 
 **Because RDP is a live-stream of the desktop interface, it must constantly send data to update your screen, resulting in "non-stop" traffic.**
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 <br />
 
