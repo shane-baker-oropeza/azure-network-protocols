@@ -32,47 +32,36 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h3>Step 1: Create a Resource Group</h3>
 
 - Log in to the Azure Portal. 
-- Search for "Resource Groups" and create a new one (e.g., Network-Lab-RG). This acts as a container for all your project resources.
+- Search for "Resource Groups" and create a new one (RG-Network-Activities). This acts as a container for all your project resources.
 
 <br />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="524" height="569" alt="Screenshot 2026-01-23 004256" src="https://github.com/user-attachments/assets/4d99ac89-94ba-42fa-8d36-9dd002b5df5b" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1094" height="454" alt="Screenshot 2026-01-23 004308" src="https://github.com/user-attachments/assets/58bfc7e8-6418-4c4f-9769-2497fcc252f1" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="732" height="858" alt="Screenshot 2026-01-23 004337" src="https://github.com/user-attachments/assets/4627d747-154a-4783-8248-fcdad932ea44" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
+<img width="539" height="862" alt="Screenshot 2026-01-23 004354" src="https://github.com/user-attachments/assets/84e5a989-5274-4281-b6dc-fb64d91856e4" />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 <h3>Step 2: Create the Windows 10 Virtual Machine</h3>
 
-- Create a new VM. Select your Network-Lab-RG, name it windows-vm, and choose Windows 10 Pro.
+- Create a new VM. Select your Network-Lab-RG, name it windows-vm, and choose Windows 10.
 - Under the "Networking" tab, allow Azure to create a new Virtual Network (VNet) and Subnet.
 
 <br />
