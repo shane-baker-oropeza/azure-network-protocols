@@ -313,7 +313,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Part 3: Firewall Configuration & Protocol Analysis</h2>
 <h3>Step 8: Configure the Network Security Group (NSG)</h3>
 
-- Initiate a "perpetual ping" from PowerShell: ping 10.0.0.5 -t.
+- Initiate a "perpetual ping" from PowerShell: ping 172.17.1.4 -t.
 - In the Azure Portal, go to the Ubuntu VM's Networking settings and add an Inbound Port Rule to Deny ICMP.
 <br />
 
