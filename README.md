@@ -61,8 +61,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h3>Step 2: Create the Windows 10 Virtual Machine</h3>
 
-- Create a new VM. Select your Network-Lab-RG, name it windows-vm, and choose Windows 10.
-- Under the "Networking" tab, allow Azure to create a new Virtual Network (VNet) and Subnet.
+- Create a new VM.
+- Select your Resource Group (RG-Network-Activities)
+- Name it windows-vm and choose Windows 10.
+- Under the "Networking" tab, allow Azure to create a new Virtual Network (lab5-vnet) and Subnet.
 
 <br />
 <p>
