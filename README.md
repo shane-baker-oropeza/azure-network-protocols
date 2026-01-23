@@ -318,7 +318,62 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="858" height="641" alt="Screenshot 2026-01-23 081606" src="https://github.com/user-attachments/assets/18843982-2230-4e99-864f-6a5f07a88e0d" />
+
+</p>
+<br />
+
+<p>
+<img width="1088" height="738" alt="Screenshot 2026-01-23 081613" src="https://github.com/user-attachments/assets/9c2aa881-0819-4db0-95dc-90e199d26a98" />
+
+</p>
+<br />
+
+<p>
+<img width="1818" height="472" alt="Screenshot 2026-01-23 081736" src="https://github.com/user-attachments/assets/d8f60b04-b21b-40da-91d7-47eb17f9e5f2" />
+
+</p>
+<br />
+
+<p>
+<img width="276" height="804" alt="Screenshot 2026-01-23 081808" src="https://github.com/user-attachments/assets/91a4fe2d-8881-472c-892a-71ba9b0aaa1f" />
+
+</p>
+<br />
+
+<p>
+<img width="1207" height="701" alt="Screenshot 2026-01-23 081846" src="https://github.com/user-attachments/assets/f2942614-7aa3-4a7d-bb07-9860af518541" />
+
+</p>
+<br />
+
+<p>
+<img width="1734" height="573" alt="Screenshot 2026-01-23 081903" src="https://github.com/user-attachments/assets/f80a0f73-5fec-448d-a814-a37990b74a5b" />
+
+</p>
+<br />
+
+<p>
+<img width="294" height="652" alt="Screenshot 2026-01-23 081915" src="https://github.com/user-attachments/assets/3331d766-5764-4321-ab7e-600a309133a6" />
+
+</p>
+<br />
+
+<p>
+<img width="1241" height="500" alt="Screenshot 2026-01-23 081943" src="https://github.com/user-attachments/assets/33d38284-3043-47f7-82b0-dbb677f8752f" />
+
+</p>
+<br />
+
+<p>
+<img width="586" height="870" alt="Screenshot 2026-01-23 082124" src="https://github.com/user-attachments/assets/ff9ef6ff-8d8a-4ecb-b655-674be9312f31" />
+
+</p>
+<br />
+
+<p>
+<img width="566" height="458" alt="Screenshot 2026-01-23 082156" src="https://github.com/user-attachments/assets/2eb907a5-aac0-4d7e-9da5-4391eef6537e" />
+
 </p>
 <br />
 
@@ -341,6 +396,24 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+
+
 
 <h3>Step 9: Observe Firewall Impact</h3>
 
