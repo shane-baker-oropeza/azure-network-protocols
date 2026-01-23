@@ -423,7 +423,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h3>Step 10: Observe SSH Traffic</h3>
 
 - In Wireshark, change the filter to ssh.
-- In PowerShell, connect to the Linux VM: ssh labuser@<Private-IP>.
+- In PowerShell, connect to the Linux VM: ssh labuser@172.17.1.4.
 - Type commands into the Linux terminal.
 <br />
 
@@ -453,7 +453,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h3>Step 11: Observe DHCP Traffic</h3>
 
-- In Wireshark, filter for dhcp (or bootp). 
+- In Wireshark, filter for dhcp. 
 - In an Administrative PowerShell window, run ipconfig /renew.
 <br />
 
