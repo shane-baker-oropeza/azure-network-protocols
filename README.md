@@ -129,43 +129,51 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h3>Step 3: Create the Linux (Ubuntu) Virtual Machine</h3>
 
-- Create another VM named ubuntu-vm.
+- Create another VM.
 - Select the same Resource Group and the same Virtual Network created in Step 2.
+- Name it linux-vm and choose Ubuntu.
 - Use "Password" for the authentication type.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="693" height="667" alt="Screenshot 2026-01-23 075329" src="https://github.com/user-attachments/assets/14fd76c2-faf0-4873-a07e-94bd93f5daf5" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="824" height="871" alt="Screenshot 2026-01-23 075406" src="https://github.com/user-attachments/assets/f71a4aed-a777-423f-82cb-3c10d76e1120" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="815" height="880" alt="Screenshot 2026-01-23 075425" src="https://github.com/user-attachments/assets/93975a43-1391-4822-bac7-d227b3e9ea1c" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="863" height="897" alt="Screenshot 2026-01-23 075441" src="https://github.com/user-attachments/assets/63821bb6-3cea-4549-a6ed-7e5379da4100" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="827" height="883" alt="Screenshot 2026-01-23 075453" src="https://github.com/user-attachments/assets/54fbf2be-8870-420d-af19-32dd9abb6e14" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="937" height="884" alt="Screenshot 2026-01-23 075516" src="https://github.com/user-attachments/assets/ee18c3fc-d428-4c03-be23-65d74d0ffa6c" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="780" height="887" alt="Screenshot 2026-01-23 075534" src="https://github.com/user-attachments/assets/1cdf3706-d8cc-4420-ac1c-40e8f0f9b99d" />
+
 </p>
 <br />
 
@@ -175,37 +183,20 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="2038" height="616" alt="Screenshot 2026-01-23 075648" src="https://github.com/user-attachments/assets/db192370-6c4e-4916-9b48-5cf0452f86f8" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1677" height="844" alt="Screenshot 2026-01-23 075705" src="https://github.com/user-attachments/assets/8dc0d549-c8f7-4dfc-8a35-be1d02a8afa1" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
+<img width="1766" height="839" alt="Screenshot 2026-01-23 075725" src="https://github.com/user-attachments/assets/3116fdd1-50aa-4e1c-a278-5c8523c2f4d3" />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
@@ -218,32 +209,20 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="2038" height="616" alt="Screenshot 2026-01-23 075648" src="https://github.com/user-attachments/assets/da5a33ff-5838-43eb-a467-9948a5051ff7" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="409" height="488" alt="Screenshot 2026-01-23 075800" src="https://github.com/user-attachments/assets/b7fe99e3-7aa5-4bb7-bf4c-e05667ba8e5b" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
+<img width="462" height="418" alt="Screenshot 2026-01-23 075815" src="https://github.com/user-attachments/assets/4b6256af-c2ce-4f23-9504-f5371b1eede5" />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
