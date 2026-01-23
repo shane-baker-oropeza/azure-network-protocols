@@ -233,51 +233,80 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br /><p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="650" height="359" alt="Screenshot 2026-01-23 080113" src="https://github.com/user-attachments/assets/9c729d83-d112-4753-8346-e794a85c58b1" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="855" height="776" alt="Screenshot 2026-01-23 080125" src="https://github.com/user-attachments/assets/c0f0aa93-82d4-4c0d-87ef-ed91430e4f16" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1063" height="688" alt="Screenshot 2026-01-23 080135" src="https://github.com/user-attachments/assets/b7a6af65-7945-4913-8d14-7adf341d6f46" />
+
+</p>
+<br />
+
+<p>
+<img width="661" height="684" alt="Screenshot 2026-01-23 080514" src="https://github.com/user-attachments/assets/8a61b751-d970-4271-b356-ebd81eb528d6" />
+
+</p>
+<br />
+
+<p>
+<img width="977" height="583" alt="Screenshot 2026-01-23 080547" src="https://github.com/user-attachments/assets/8509a320-f625-45e0-9aa4-a16ac0ad99ff" />
+
+</p>
+<br />
+
+<p>
+<img width="1376" height="735" alt="Screenshot 2026-01-23 080604" src="https://github.com/user-attachments/assets/81d57b26-e567-4647-a64d-d2a32fab3b9b" />
+
 </p>
 <br />
 
 <h3>Step 7: Filter and Observe ICMP (Ping)</h3>
 
 - In the Wireshark filter bar, type icmp. 
-- Open PowerShell and ping your Ubuntu VM's Private IP (e.g., ping 10.0.0.5).
+- Open PowerShell and ping your Ubuntu VM's Private IP (ping 172.17.1.4).
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1378" height="734" alt="Screenshot 2026-01-23 080619" src="https://github.com/user-attachments/assets/d6ed22e7-8787-457f-99b0-6643b71c6b29" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1687" height="770" alt="Screenshot 2026-01-23 080740" src="https://github.com/user-attachments/assets/5eca8ed5-7938-45e0-a7c5-ecd0246e1f69" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="803" height="694" alt="Screenshot 2026-01-23 080923" src="https://github.com/user-attachments/assets/de487ab2-386d-4961-94e8-20efe8ea6604" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="863" height="734" alt="Screenshot 2026-01-23 081045" src="https://github.com/user-attachments/assets/58caccc0-13ed-408e-a69c-876c0f6092e4" />
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="865" height="737" alt="Screenshot 2026-01-23 081104" src="https://github.com/user-attachments/assets/4254e69c-fc10-4c85-9e58-d62ddfda2ff3" />
+
+</p>
+<br />
+
+<p>
+<img width="1093" height="735" alt="Screenshot 2026-01-23 081110" src="https://github.com/user-attachments/assets/ac9b2acf-4a10-4dbe-b59a-1ec70b919a8d" />
+
 </p>
 <br />
 
